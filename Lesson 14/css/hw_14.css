@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(249, 234, 250);
+}
+
+.each-jewel {
+    background-color: #fff;
+    border: 1.5px solid rgb(89, 15, 95);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(89, 15, 95);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgb(89, 15, 95);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+}
+
+img {
+    align-self: center;
+}
